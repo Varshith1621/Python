@@ -12,7 +12,7 @@ print("First number is not greater than second:", not (num1 > num2))
 age = int(input("Enter your age: "))
 if age >= 18:
     print("You are an adult")
-elif age < 18:
+else if age < 18: 
     print("You are a minor")
 
 # Membership Operator Exercise
